@@ -804,7 +804,7 @@ surveyButton.addEventListener('click', buildQuiz)
 function buildQuiz() {
   let params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,
   width=600,height=600,left=-500,top=-500`;
-  return open('file:///Users/raulcontreras/Documents/My%20Attemp%20to%20do%20things%20right/jsquiz/index.html', 'test', params);
+  return open('jsquiz/index.html', 'test', params);
   // return window.open("file:///Users/raulcontreras/Documents/My%20Attemp%20to%20do%20things%20right/jsquiz/index.html","_self");
 }
 
